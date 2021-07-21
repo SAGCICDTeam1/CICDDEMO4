@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="TestCase for adding 2 numbers" name="Test">
+    <webMethodsTestCase description="Sample test case to validate the addition of 2 numbers" name="sampleTestCase">
+        <service folder="testPckg1.services" name="addNumbers">
+            <input>
+                <file filename="testPckg1_services_addNumbers_input.xml"/>
+            </input>
+            <expected>
+                <file filename="testPckg1_services_addNumbers_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
